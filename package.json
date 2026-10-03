@@ -1,0 +1,19 @@
+{
+  "name": "wa-bot-izi",
+  "version": "1.0.0",
+  "description": "Wrapper simplificado sobre @neoxr/wb (Baileys) para crear bots de WhatsApp en pocas líneas",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "scripts": {
+    "example": "node example/bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@neoxr/wb": "latest",
+    "baileys": "latest"
+  },
+  "license": "MIT"
+}
